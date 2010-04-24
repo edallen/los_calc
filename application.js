@@ -1,4 +1,5 @@
 /* Line of Sight Calculator for TCS games, by Ed Allen */
+
 $(document).ready(function(){
   
   function calculate_height (){
@@ -21,3 +22,4 @@ $(document).ready(function(){
    $("#height_button").bind("click", function(){ calculate_height();});
 
 });
+
