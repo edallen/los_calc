@@ -15,7 +15,7 @@ $(document).ready(function(){
     hi_lo = hi - low;
     dhml =  ob_d * hi_lo;
     blocking_over_low = dhml / hi_d 
-    blocking_height =  low * 1 + blocking_over_low;
+    blocking_height =  parseInt(low * 1 + blocking_over_low);
     
     $("#blocking_height").val(blocking_height);
   }
